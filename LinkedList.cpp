@@ -205,13 +205,3 @@ int main(){
 	}
 }
 
-/*
- * Starting with the code above add these features (20% of grade each).  Add test code for each, to make sure they work.
- * 	1.  If a word is already in the list, don't add a second copy of it
- * 	2.  Add a remove method, which takes a word and removes it from the list.  Don't leak memory!
- * 	3.  Add a length method, which returns the length of the list
- * 	4.  Add a find method, which finds the index of an item, and returns -1 if it is not in the list.  Remember to put in test code for both cases.
- * 	5.  Add a reverse method, which will reverse the order of the list.  Once the list is reversed, it should stay reversed even when new words are added.  Keep a private boolean property called "reversed" which will track whether the list is currently reversed or not, and modify the add method so that it uses this property to figure out where to put new data.
- *
- * 	Test code here can be either interactive or not, but compiling and running the program should provide a convincing demonstration that your linked list ADT works.  Keep all data members private in the WordList class.
- */
